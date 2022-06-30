@@ -7,7 +7,7 @@ export const Home = () => {
 
   const { loading, users } = useContext(GithubContext)
 
-  const cards = new Array(15).fill('').map((_, i) => i)
+  //const cards = new Array(15).fill('').map((_, i) => i)
 
   return (
     <>
